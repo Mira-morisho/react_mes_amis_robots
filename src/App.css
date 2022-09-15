@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('./SEGA.woff') format('woff');
+  }
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #170055 99.84%, #00817F 0%);
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: linear-gradient(90deg, #010c41 0%, rgba(142, 217, 235, 0.85) 99.84%);
+}
+
+h1 {
+  font-family: 'SEGA LOGO FONT';
+  color:  #0ccac4;;
+  text-align: center;
+}
+
+
+
+.cards {
+  width: 180px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  gap: 2rem;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  width: 85%;
+}
+.card-image:hover{
+  background-color: #FFA300;
+  transform: scale(1.1);
+}
+
+
+.card-image {
+  background: #0ccac4;
+  width: 250px;
+  height: 330px;
+  cursor: pointer;
+  margin-bottom: 5%;
+  
+}
+
+input {
+  position: relative;
+  left: 40%;
+  height: 40px;
+  width: 250px;
+
+
+}
